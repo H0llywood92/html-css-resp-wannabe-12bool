@@ -30,11 +30,6 @@
   text-align: center;
 }
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  margin-top: 80px;
-}
 
 #why .row img {
   background-color: #428bca;
@@ -60,11 +55,13 @@ img {
   margin-top: 30px;
 }
 
-.row [class*="col-xs"] img {
-  height: 150px;
-  width: auto;
-}
-
  .block-pad {
   padding: 0 10px;
+}
+
+@media all and (max-width: 767px ){
+  .row [class*="col-xs"] img {
+    height: 150px;
+    width: auto;
+  }
 }
